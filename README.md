@@ -2,6 +2,9 @@ Searchable, a search trait for Laravel
 ==========================================
 This is a **FORK** from `nicolaslopezj/searchable` so no real changes were made, except namespace paths.
 Main purpose is test drive it on Laravel 6 and the developer seems to be in no hurry to release a 6 version
+
+Original
+==========================================
  
 Searchable is a trait for Laravel 4.2+, Laravel 5+ and Laravel 6.0 that adds a simple search function to Eloquent Models.
 
