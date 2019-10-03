@@ -1,0 +1,27 @@
+{
+    "name": "contika/searchable",
+    "description": "Eloquent model search trait.",
+    "keywords": ["laravel", "eloquent", "search", "searchable", "database", "model"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Lopez",
+            "email": "nicolaslopezj@me.com"
+        },
+        {
+            "name": "Alvin Bakker",
+            "email": "alvin@contika.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/database": "4.2.x|~5.0|~6.0",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Contika\\Searchable\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
