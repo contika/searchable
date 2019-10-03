@@ -1,8 +1,9 @@
 Searchable, a search trait for Laravel
 ==========================================
-THIS IS A FORM FROM `nicolaslopezj/searchable` SO NO RTEAL CHANGES WERE MADE
+This is a **FORK** from `nicolaslopezj/searchable` so no real changes were made, except namespace paths.
+Main purpose is test drive it on Laravel 6 and the developer seems to be in no hurry to release a 6 version
  
-Searchable is a trait for Laravel 4.2+ and Laravel 5.0 that adds a simple search function to Eloquent Models.
+Searchable is a trait for Laravel 4.2+, Laravel 5+ and Laravel 6.0 that adds a simple search function to Eloquent Models.
 
 Searchable allows you to perform searches in a table giving priorities to each field for the table and it's relations.
 
@@ -21,7 +22,7 @@ Simply add the package to your `composer.json` file and run `composer update`.
 Add the trait to your model and your search rules.
 
 ```php
-use Nicolaslopezj\Searchable\SearchableTrait;
+use Contika\Searchable\SearchableTrait;
 
 class User extends \Eloquent
 {
@@ -134,7 +135,7 @@ Here is an example query
 
 #### Eloquent Model:
 ```php
-use Nicolaslopezj\Searchable\SearchableTrait;
+use Contika\Searchable\SearchableTrait;
 
 class User extends \Eloquent
 {
